@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        id="@+id/tab_conditions"
+        title="آلارم ها"
+        icon="@drawable/ic_alarm"
+        barColorWhenSelected="#121121" />
+
+
+    <tab
+        id="@+id/tab_market"
+        title="ارزهای دیجیتال"
+        icon="@drawable/ic_bitcoin"
+        barColorWhenSelected="#121121" />
+</tabs>

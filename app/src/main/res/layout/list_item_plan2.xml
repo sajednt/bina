@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/holecontainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+
+
+    <LinearLayout
+        android:id="@+id/cornerback"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginVertical="8dp"
+        android:layout_marginRight="68dp"
+        android:background="@drawable/radius_half_green"
+        android:orientation="horizontal" />
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        android:id="@+id/shadow_item_container"
+        style="@style/ms9_CompositeShadowStyleCompatOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true"
+        app:ms9_shadowElevation="4dp"
+        app:ms9_shadowTranslationZ="0dp"
+        app:ms9_useAmbientShadow="true">
+
+
+        <LinearLayout
+            android:id="@+id/textlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="68dp"
+            android:background="@color/grayblue"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="5dp"
+            android:layout_marginVertical="8dp"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/textalarmprice"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/iranyekan"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="59.000\nتومان"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal"
+                    android:paddingVertical="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/textmodat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/iranyekan"
+                        android:gravity="center"
+                        android:text="30 روز"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/dawdawf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/iranyekan"
+                        android:gravity="center"
+                        android:text="مدت "
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/gray"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:paddingVertical="3dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/textalarmcount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/iranyekan"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/uikjnjyfr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/iranyekan"
+                        android:gravity="center"
+                        android:text="تعداد آلارم"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        android:id="@+id/shadow_item_container2"
+        style="@style/ms9_CompositeShadowStyleCompatOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true"
+        app:ms9_shadowElevation="4dp">
+
+        <LinearLayout
+            android:id="@+id/awdawdawf"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_orange"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textplanename"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/iranyekan"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="بسته ا"
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/buttonselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iranyekan"
+            android:minHeight="0dp"
+            android:text="خرید"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:backgroundTint="#fba054"/>
+        <Button
+            android:id="@+id/buttonreserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="رزرو"
+            android:textSize="12sp"
+            android:fontFamily="@font/iranyekan"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:minHeight="0dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

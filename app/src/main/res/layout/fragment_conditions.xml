@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkblue"
+    android:clipChildren="false"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/indicator_condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorName="BallTrianglePathIndicator" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="آلارمی یافت نشد"
+            android:visibility="gone"
+            android:fontFamily="@font/iranyekan"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCondition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/addbtn"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_add"
+        app:cb_color="@color/green" />
+
+</RelativeLayout>

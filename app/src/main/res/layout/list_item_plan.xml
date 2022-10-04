@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        style="@style/ms9_DefaultShadowStyle"
+        android:id="@+id/shadow_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms9_shadowElevation="4dp"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:background="@color/grayblue"
+            android:gravity="center|top">
+
+            <TextView
+                android:id="@+id/textplanename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بسته ا"
+                android:textColor="@color/gray"
+                android:gravity="center"
+                android:padding="3dp"
+                android:textAlignment="gravity"
+                android:textSize="12sp"
+                android:fontFamily="@font/iranyekan"
+                android:textStyle="bold"
+                android:background="@drawable/radius_half_green"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/textmodat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 روز"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/dawdawf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="مدت "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/gray"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/textalarmcount"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/uikjnjyfr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="تعداد آلارم"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/gray"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/textalarmprice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="100,000 تومان"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/dawfvb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="قیمت "
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/buttonreserve"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="رزرو"
+                    android:layout_weight="1"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/iranyekan"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="2dp"
+                    android:backgroundTint="@color/graylight"
+                    android:textColor="@color/gray"
+                    android:minHeight="0dp"/>
+
+
+                <Button
+                    android:id="@+id/buttonselect"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="خرید"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iranyekan"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:backgroundTint="@color/green"
+                    android:textSize="12sp"
+                    android:minHeight="0dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+</LinearLayout>

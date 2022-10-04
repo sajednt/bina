@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:layout_margin="4dp">
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        style="@style/ms9_DefaultShadowStyle"
+        android:id="@+id/shadow_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms9_shadowElevation="4dp"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:background="@color/grayblue"
+        android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:id="@+id/linearclick"
+        android:background="?attr/selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textsymbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/iranyekan"
+
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:gravity="center_vertical"
+                android:textColor="#F5F5F5"
+                android:fontFamily="@font/iranyekan"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/indicator_symbols2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:indicatorName="BallScaleMultipleIndicator"
+                app:indicatorColor="@color/green"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="right">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/texttimeframe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:gravity="center_vertical"
+                    android:textColor="#F5F5F5"
+                    android:textDirection="rtl"
+                    android:fontFamily="@font/iranyekan"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/texttimetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="بر اساس : "
+                    android:gravity="center_vertical"
+                    android:textColor="#F5F5F5"
+                    android:textDirection="rtl"
+                    android:fontFamily="@font/iranyekan"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/textprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="45.698"
+                    android:gravity="center_vertical"
+                    android:textColor="#F5F5F5"
+                    android:textDirection="rtl"
+                    android:fontFamily="@font/iranyekan"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textpric1e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="قیمت : "
+                    android:gravity="center_vertical"
+                    android:textColor="#F5F5F5"
+                    android:textDirection="rtl"
+                    android:fontFamily="@font/iranyekan"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.7"
+            android:gravity="left|center_vertical">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:fontFamily="@font/iranyekan"
+                android:text=""
+                android:textColor="#F5F5F5"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.6"
+            android:gravity="left|center_vertical"
+            android:foreground="?attr/selectableItemBackground"
+            android:id="@+id/btnlog"
+            android:clickable="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/iranyekan"
+                    android:text="تاریخچه"
+                    android:textAlignment="center"
+                    android:textColor="#F5F5F5"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/arrow_down_float" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1.7">
+
+
+            <TextView
+                android:id="@+id/textwdqwe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/iranyekan"
+                android:gravity="center_vertical"
+                android:text="تاریخ آخرین ویرایش"
+                android:textColor="#F5F5F5"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/textmodifydate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/iranyekan"
+                android:text="1400/11/15 10:59"
+                android:textAlignment="textEnd"
+                android:textColor="#F5F5F5"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:el_duration="500"
+            app:el_expanded="false"
+            app:el_parallax="0.5">
+
+            <TextView
+                android:id="@+id/logtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:fontFamily="@font/iranyekan"
+                android:text="لاگ آلارم"
+                android:textColor="#F5F5F5"
+                android:textSize="12sp"
+                android:gravity="right"/>
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+
+    </LinearLayout>
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+</LinearLayout>

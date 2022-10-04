@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862882788567",
+    "project_id": "arzalarm-9ea02",
+    "storage_bucket": "arzalarm-9ea02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862882788567:android:90d24f9d67381632d1ec92",
+        "android_client_info": {
+          "package_name": "com.sajednt.arzalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862882788567-urf7kdkq0ga207jntot17nejj4i0cekp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAeJdRmETykeuCWUElT7PvD3uyKesr1Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862882788567-urf7kdkq0ga207jntot17nejj4i0cekp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

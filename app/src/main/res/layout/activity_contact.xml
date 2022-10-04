@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sajednt.arzalarm.user.Activity_contact"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="کاربر گرامی از طریق فرم زیر پیام خود را جهت انجام امور پشتیبانی برای ما ارسال فرمایید"
+        android:fontFamily="@font/iranyekan"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="موضوع"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textColorHint="@color/grey"
+        android:fontFamily="@font/iranyekan"
+        android:text=""
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="توضیحات"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textDirection="rtl"
+        android:textColorHint="@color/grey"
+        android:fontFamily="@font/iranyekan"
+        android:lines="4"
+        android:text=""
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ارسال"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/iranyekan"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</LinearLayout>

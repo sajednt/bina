@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fab_plans"
+        android:icon="@drawable/ic_package"
+        android:title="خرید بسته" />
+
+    <item
+        android:id="@+id/fab_devices"
+        android:icon="@drawable/ic_device"
+        android:title="دستگاه های متصل" />
+
+    <item
+        android:id="@+id/fab_contact"
+        android:icon="@drawable/ic_support"
+        android:title="پشتیبانی" />
+
+    <item
+        android:id="@+id/fab_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="خروج" />
+</menu>

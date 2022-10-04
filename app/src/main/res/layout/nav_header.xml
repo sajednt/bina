@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkblue"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/iranyekan"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/white"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textplanname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/iranyekan"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/text231234"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بسته فعال : "
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/iranyekan"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textExpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/iranyekan"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/text231"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تاریخ اعتبار : "
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/iranyekan"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

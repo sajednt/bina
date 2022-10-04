@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sajednt.arzalarm">
+
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR"></uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- ارسال اعلان بر اساس اپراتور -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> &lt;!&ndash; Android 10 or higher &ndash;&gt; -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.sajednt.arzalarm.AppController"
+        android:icon="@drawable/ic_asset_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bina">
+
+        <meta-data
+            android:name="pushe_token"
+            android:value="bGQ4M2ozeXl5MXd5NW52ZUBmdnlAODYyODgyNzg4NTY3"/>
+        <service
+            android:name="co.pushe.plus.fcm.FcmService"
+            tools:node="remove" />
+        <activity
+            android:name="com.sajednt.arzalarm.user.Forgot_password"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.user.Activity_contact"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_plan"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_devices"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Splash"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.condition.Edit_condition_timeframe"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.user.Activity_ticker_to_alarm"
+            android:exported="false" />
+
+<!--        <receiver android:name=".functions.AlertReceiver" />-->
+<!--        <receiver-->
+<!--            android:name=".functions.MyAlarmReceiver"-->
+<!--            android:exported="false">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.tomergoldst.timekeeper.intent_action.RECEIVE_ALARMS" />-->
+<!--            </intent-filter>-->
+<!--        </receiver> &lt;!&ndash; <meta-data &ndash;&gt;-->
+        <!-- android:name="com.pushwoosh.notification_service_extension" -->
+        <!-- android:value=".functions.YourNotificationServiceExtension"/> -->
+        <activity
+            android:name="com.sajednt.arzalarm.condition.New_condition_timeframe"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.condition.Edit_condition_price"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.condition.New_condition_price"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_ticker"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.adapter.Activity_ticker_info"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_pager"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_addCondition"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_editCondition"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_condition"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+
+        <meta-data
+            android:name="com.pushwoosh.appid"
+            android:value="9C2EF-A2181" />
+        <meta-data
+            android:name="com.pushwoosh.senderid"
+            android:value="@string/fcm_sender_id" /> <!-- <meta-data -->
+        <activity
+            android:name="com.sajednt.arzalarm.user.Code"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.user.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.sajednt.arzalarm.user.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sajednt.arzalarm.Activity_symbols"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.sajednt.arzalarm.functions.YourNotificationServiceExtension"
+            tools:ignore="Instantiatable" />
+    </application>
+
+</manifest>

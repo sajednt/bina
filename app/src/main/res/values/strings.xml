@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ارز آلارم</string>
+
+    <string name="fcm_sender_id">862882788567</string>
+    <string-array name="timeframes">
+        <item>4h</item>
+        <item>12h</item>
+        <item>1d</item>
+        <item>1w</item>
+    </string-array>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="devicelist">لیست دستگاه ها</string>
+    <string name="planname">بسته های آلارم</string>
+
+    <string name="target_tickerlist_title">دیده بان قیمت ها</string>
+    <string name="target_tickerlist_desc">در این قسمت میتوانید به صورت آنلاین قیمت ارزهای مورد نظر خود را ببینید و با کلیک برروی هر آیتم جزئیات بیشتری برای شما نمایش داده می شود، شما میتوانید برای ویرایش آیتم های این صفحه روی دکمه + در بالای صفحه کلیک کنید</string>
+    <string name="target_alarmlist_title">فهرست آلارم ها</string>
+    <string name="target_alarmlist_desc">در این بخش شما به فهرست آلارم های ثبت شده و جزئیات آن ها دسترسی دارید و با کلیک برروی دکمه + میتوانید آلارم جدیدی را ثبت کنید</string>
+    <string name="connection_problem">مشکل در اتصال</string>
+    <string name="again">دوباره</string>
+</resources>

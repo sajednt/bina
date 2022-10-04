@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:gravity="center_vertical"
+
+    android:background="@drawable/customborder">
+
+    <LinearLayout
+
+        android:id="@+id/linearclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="4"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/textTicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BTCUSDT"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <TextView
+            android:id="@+id/textDateTrue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.8"
+            android:gravity="right"
+            android:text="1400-09-23"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

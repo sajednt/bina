@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sajednt.arzalarm.Activity_ticker"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/maintoolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textTicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="TextView"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/iranyekan"
+            android:text="قیمت لحظه ای : 65845.26"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <com.sajednt.arzalarm.functions.WrapContentHeightViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/tabindicator"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clipToPadding="false"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:stl_defaultTabTextColor="@android:color/darker_gray"
+            app:stl_defaultTabTextHorizontalPadding="18dp"
+            app:stl_dividerColor="@color/transparent"
+            app:stl_dividerThickness="0dp"
+            app:stl_indicatorColor="@color/grayblue"
+            app:stl_indicatorCornerRadius="18dp"
+            app:stl_indicatorGravity="center"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="36dp"
+            app:stl_underlineColor="@color/transparent"
+            app:stl_underlineThickness="0dp"
+            app:stl_defaultTabTextAllCaps="false"/>
+    </LinearLayout>
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        style="@style/ms9_DefaultShadowStyle"
+        android:id="@+id/shadow_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms9_shadowElevation="4dp"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="@color/grayblue">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="ثبت آلارم جدید"
+            android:fontFamily="@font/iranyekan"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/buttonCandle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="بر اساس قیمت پایانی کندل"
+                android:fontFamily="@font/iranyekan"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="11sp"
+                android:autoSizeMaxTextSize="16sp"
+                android:autoSizeStepGranularity="1sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:lines="1"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/buttonPriceBase"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="بر اساس قیمت لحظه‌ای"
+                android:fontFamily="@font/iranyekan"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="13sp"
+                android:backgroundTint="@color/green"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="right">
+
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:layout_marginLeft="5dp">-->
+
+<!--            </RelativeLayout>-->
+            <Button
+                android:id="@+id/btnstrategy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="بر اساس استراتژی"
+                android:fontFamily="@font/iranyekan"
+                android:textSize="13sp"
+                android:backgroundTint="@color/green"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        style="@style/ms9_DefaultShadowStyle"
+        android:id="@+id/shadow_r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms9_shadowElevation="4dp"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="WebViewLayout"
+            android:layout_marginTop="25dp"
+            android:layout_margin="10dp"
+            android:background="@color/grayblue">
+
+
+            <WebView
+                android:id="@+id/tradingview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+
+</LinearLayout>

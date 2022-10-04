@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable-anydpi/ic_arzalarm_logo.xml" value="0.3045" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable-hdpi/radius_half_green.xml" value="0.3045" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable-v24/radius_red.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable-xxhdpi/allborder.xml" value="0.324" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/customborder.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/gradient_orange.xml" value="0.3045" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/ic_asset_2.xml" value="0.3045" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/ic_launcher_background.xml" value="0.324" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/radius_green.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/radius_red.xml" value="0.37552083333333336" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/drawable/scaledback.xml" value="0.3045" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/font/fontdigital.xml" value="0.38958333333333334" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_add_condition.xml" value="0.3292572463768116" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_code.xml" value="0.33" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_condition.xml" value="0.3532608695652174" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_contact.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_devices.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_edit_condition.xml" value="0.31929347826086957" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_edit_condition_price.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_edit_condition_timeframe.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_editcondition.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_login.xml" value="0.3582427536231884" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_login_register.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_new_condition.xml" value="0.3292572463768116" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_new_condition_timeframe.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_pager.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_plan.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_register.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_splash.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_symbols.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_ticker.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_ticker_info.xml" value="0.34782608695652173" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_ticker_to_alarm.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/activity_tikers.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/drawerlayout.xml" value="0.3453125" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/fragment_conditions.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/fragment_market.xml" value="0.3453125" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/fragment_watch.xml" value="0.3453125" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/item_list_symbol.xml" value="0.3453125" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_condition.xml" value="0.5" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_conditions2.xml" value="0.7191435768261965" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_devices.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_plan.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_plan2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_symbol.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_ticker.xml" value="0.5" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/list_item_ticker_to_alarm.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/menu_drawer.xml" value="0.3453125" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/nav_header.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/searchable.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/spinner_item.xml" value="0.3242753623188406" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/layout/toolbar.xml" value="0.3453125" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/menu/mainmenu.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/menu/menuaddcondition.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/menu/ticker_menu.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3045" />
+        <entry key="..\:/Users/IT/AndroidStudioProjects/bina/app/src/main/res/xml/bottombar_tabs.xml" value="0.359375" />
+        <entry key="..\:/Users/IT/gradle/caches/transforms-3/d80aad1ece4ea52bb4041c9e3fd39857/transformed/jetified-bottom-bar-2.3.1/res/layout/bb_bottom_bar_item_container.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/IT/gradle/caches/transforms-3/d80aad1ece4ea52bb4041c9e3fd39857/transformed/jetified-bottom-bar-2.3.1/res/layout/bb_bottom_bar_item_container_tablet.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/IT/gradle/caches/transforms-3/d80aad1ece4ea52bb4041c9e3fd39857/transformed/jetified-bottom-bar-2.3.1/res/layout/bb_bottom_bar_item_fixed.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/IT/gradle/caches/transforms-3/d80aad1ece4ea52bb4041c9e3fd39857/transformed/jetified-bottom-bar-2.3.1/res/layout/bb_bottom_bar_item_fixed_tablet.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/IT/gradle/caches/transforms-3/d80aad1ece4ea52bb4041c9e3fd39857/transformed/jetified-bottom-bar-2.3.1/res/layout/bb_bottom_bar_item_shifting.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/IT/gradle/caches/transforms-3/d80aad1ece4ea52bb4041c9e3fd39857/transformed/jetified-bottom-bar-2.3.1/res/layout/bb_bottom_bar_item_titleless.xml" value="0.35643115942028986" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="retrofit2.http.GET" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

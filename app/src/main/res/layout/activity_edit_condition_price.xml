@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sajednt.arzalarm.condition.New_condition_price"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/indicator_condi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorName="BallTrianglePathIndicator" />
+    </LinearLayout>
+
+
+    <include
+        android:id="@+id/maintoolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@id/maintoolbar">
+
+    <LinearLayout
+        android:id="@+id/lineararea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/tickerspinner"
+                style="@style/Theme.UserDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iranyekan"
+                android:text="انتخاب تیکر :"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tickernametext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iranyekan"
+                android:text="BTCUSDT"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textView323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iranyekan"
+                android:text=" تیکر :"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right">
+
+
+            <TextView
+                android:id="@+id/textPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iranyekan"
+                android:text="قیمت لحظه ای : -------"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:fontFamily="@font/iranyekan"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/texteerfw"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:fontFamily="@font/iranyekan"
+                android:text="قیمت مورد نظر :"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <EditText
+                android:id="@+id/editMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:fontFamily="@font/iranyekan"
+                android:inputType="text"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/texteawd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/iranyekan"
+                android:text="پیام نمایشی"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearcondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iranyekan"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="خلاصه وضعیت آلارم"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/condi_Summary1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/textcrossPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/iranyekan"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="49589.67"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textcross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/iranyekan"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="به بیشتر از"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/texTickercross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/iranyekan"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:text="Bitcoin (BTC)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/texteer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/iranyekan"
+                    android:paddingLeft="3dp"
+                    android:text="اگر قیمت"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/condi_Summary2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/texteerwdawd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/iranyekan"
+                    android:paddingLeft="3dp"
+                    android:text="رسید ، من را با خبر کن"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="3">
+
+            <CheckBox
+                android:id="@+id/checkBoxsms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:enabled="true"
+                android:fontFamily="@font/iranyekan"
+                android:layoutDirection="rtl"
+                android:text="ارسال پیامک"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxemail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:fontFamily="@font/iranyekan"
+                android:layoutDirection="rtl"
+                android:text="ارسال ایمیل"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxnotif"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                android:checked="true"
+                android:enabled="false"
+                android:fontFamily="@font/iranyekan"
+                android:layoutDirection="rtl"
+                android:text="ارسال نوتیفیکیشن"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/default_shadow_color"
+            android:fontFamily="@font/iranyekan"
+            android:text="حذف"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:fontFamily="@font/iranyekan"
+            android:text="به روزرسانی"
+            android:layout_weight="2"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

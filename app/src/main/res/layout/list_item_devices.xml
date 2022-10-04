@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="4dp">
+
+    <com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView
+        style="@style/ms9_DefaultShadowStyle"
+        android:id="@+id/shadow_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms9_shadowElevation="4dp"
+        app:ms9_affectsDisplayedPosition="true"
+        app:ms9_forceUseCompatShadow="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:background="@color/grayblue"
+            android:padding="3dp">
+
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/imageDelete"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@android:drawable/ic_menu_delete"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:background="?attr/selectableItemBackground"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="5"
+                android:gravity="right"
+                android:layout_margin="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/textDevicecurrent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="همین دستگاه"
+                        android:textColor="@color/green"
+                        android:gravity="right"
+                        android:textAlignment="gravity"
+                        android:textSize="13sp"
+                        android:fontFamily="@font/iranyekan"
+                        android:layout_marginRight="10dp"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textDevicename"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Xiaomi"
+                        android:textColor="@color/white"
+                        android:gravity="right"
+                        android:textAlignment="gravity"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/textDevicvisit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2022-05-30 10:28:10"
+                        android:textColor="@android:color/secondary_text_dark"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/iranyekan"/>
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="آخرین بازدید : "
+                        android:textColor="@android:color/secondary_text_dark"
+                        android:gravity="right"
+                        android:textAlignment="gravity"
+                        android:textSize="14sp"
+                        android:fontFamily="@font/iranyekan"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </com.h6ah4i.android.materialshadowninepatch.MaterialShadowContainerView>
+
+</LinearLayout>

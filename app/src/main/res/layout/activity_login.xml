@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sajednt.arzalarm.user.Login">
+
+    <LinearLayout
+        android:id="@+id/linearLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/ic_arzalarm_logo"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="ایمیل"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/darker_gray"
+            android:fontFamily="@font/iranyekan"
+            android:gravity="left"/>
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="رمز عبور"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:fontFamily="@font/iranyekan"
+            android:gravity="left"
+            android:textColorHint="@android:color/darker_gray" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ورود"
+            android:fontFamily="@font/iranyekan"
+            android:backgroundTint="@color/green"/>
+
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حساب کاربری ندارید ؟ ثبت نام کنید"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:fontFamily="@font/iranyekan"/>
+
+        <TextView
+            android:id="@+id/textprivacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سیاست حفظ حریم خصوصی"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:fontFamily="@font/iranyekan"/>
+
+        <TextView
+            android:id="@+id/textForgot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="فراموشی رمز عبور"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:fontFamily="@font/iranyekan"/>
+
+    </LinearLayout>
+</RelativeLayout>

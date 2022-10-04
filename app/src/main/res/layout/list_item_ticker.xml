@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    android:id="@+id/maintikcerlayout"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textsymbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:gravity="center_vertical"
+                android:textColor="#F5F5F5"
+                android:textSize="13sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textDifPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:paddingRight="9dp"
+                android:paddingLeft="9dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:id="@+id/textDifference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@android:color/darker_gray"
+        android:paddingTop="15dp"
+        android:layout_marginTop="3dp"/>
+
+</LinearLayout>
